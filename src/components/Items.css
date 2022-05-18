@@ -1,0 +1,100 @@
+.card{
+    margin-top:50px !important;
+    min-width: 200px!important;
+    height: 250px;
+    background-color: transparent;
+    border: 10px solid #630606;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card-body{
+    font-family: Poppins;
+    margin: auto;
+    min-width: 200px;
+
+}
+
+.card-body h1{
+    font-size: 90px;
+    margin-top:40px;
+    color: white;
+}
+
+
+
+.card-footer{
+    background-color: #630606;
+}
+
+.card-footer h2{
+    color: white;
+    font-family: Poppins;
+    font-size: 40px;
+}
+
+.title h1{
+    font-family: Poppins;
+    font-size: 50px;
+    margin-top: 30px;
+    color: white;
+
+}
+
+.title h4{
+    font-size:20px;
+    color: white;
+    font-family: "Dead Revolution";
+}
+
+.button{
+    width: 220px;
+    height: 70px;
+    background-color: white;
+    font-family: Poppins;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: #630606;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    opacity: 1;
+    transition: all 0.1s ease-in;
+
+}
+
+.button:hover,
+.button:active,
+.button:focus{
+    opacity: 0.9;
+    transition: all 0.1s ease-in;
+    background-color: #630606;
+    color: white;
+    border: 3px solid #630606;
+    transform:scale(1.05);
+}
+
+.item-select{
+    width: 350px;
+    height: 50px;
+    font-family: Poppins;
+    background-color: #630606;
+    border: 2px solid #630606;
+    border-radius: 3px;
+    font-size: 30px;
+    margin: auto;
+    color: white;
+    margin-top: 20px;
+    transition: all 0.5s ease-in;
+}
+
+.item-select:focus:active{
+    border: 2px solid white;
+    transition: all 0.5s ease-in;
+}
+
+.option-select{
+    background-color: white;
+    color: #630606;
+}
+
